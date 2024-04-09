@@ -28,11 +28,9 @@ ensure you have the following installed on your system:
        ```
 
 3. run the application:
-   ```bash
-   npm install 
-   ```
    - FOR FRONTEND:
     ```bash
+    npm install
     ng serve
     ```
    - *if you don't have as me angular cli, then* :
@@ -42,6 +40,10 @@ ensure you have the following installed on your system:
     and follow the link http://localhost:4200/ to open the project.
 
    - FOR BACKEND:
+   ```bash
+   cd tengri_back 
+   pip install -r requirements.txt
+   ```
    - apply the migrations
    ```bash
    python manage.py makemigrations
