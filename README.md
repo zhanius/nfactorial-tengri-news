@@ -29,7 +29,7 @@ ensure you have the following installed on your system:
 
 3. run the application:
    ```bash
-   npm install -g @angular/cli@17.3
+   npm install 
    ```
    - FOR FRONTEND:
     ```bash
