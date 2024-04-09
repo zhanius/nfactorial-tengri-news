@@ -28,6 +28,9 @@ ensure you have the following installed on your system:
        ```
 
 3. run the application:
+   ```bash
+   npm install -g @angular/cli@17.3
+   ```
    - FOR FRONTEND:
     ```bash
     ng serve
