@@ -28,23 +28,23 @@ ensure you have the following installed on your system:
        ```
 
 3. run the application:
-   for frontend:
+   - for frontend:
     ```bash
     ng serve
     ```
-   *if you don't have as me angular cli, then* :
+   - *if you don't have as me angular cli, then* :
    ```bash
     npx ng serve
    ```
     and follow the link http://localhost:4200/ to open the project.
 
-   for backend:
+   - for backend:
    - apply the migrations
    ```bash
    python manage.py makemigrations
    python manage.py migrate
    ```
-   - create a user to access the admin panel
+   - create a superuser to access the admin panel
    ```bash
    python manage.py createsuperuser
    ```
