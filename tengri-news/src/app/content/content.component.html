@@ -1,0 +1,31 @@
+<div class = 'container'> 
+
+    <nav class = "menu">
+      <div class = 'right'>
+        <div class = 'logos'>
+          <a href="#"><img class = 'burger' src="https://tengrinews.kz/edu/img/burger.svg" alt=""></a>
+          <a href="#"><img class = 'tengri-logo' src="https://tengrinews.kz/tengri_new/img/logo.svg" alt=""></a>
+        </div>
+
+        <div class = 'links'>
+          <a [routerLink] = "['/latestnews/']">Последние Новости</a>
+          <a href="#">Статьи</a>
+          <a href="#">Что будет с Казахстаном?</a>
+        </div>
+      </div>
+    
+      <div class = 'left'>
+        <a href="#"><img src="https://tengrinews.kz/tengri_new/img/menu-lang.svg" class = 'language' alt=""></a>
+        <a href="#"><img src="https://tengrinews.kz/tengri_new/img/menu-search.svg" class = 'search' alt=""></a>
+      </div>
+    </nav>
+
+    <a class = "whatsapp" href="#">
+      <p>Подписывайтесь на канал Tengrinews.kz в Whatsapp</p>
+      <span></span>
+    </a>
+
+    
+    <router-outlet></router-outlet>
+
+</div>

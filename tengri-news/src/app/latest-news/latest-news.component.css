@@ -1,0 +1,38 @@
+.news-pic {
+    width: 300px;
+    height: 180px;
+  }
+  
+  img {
+    border-radius: 5px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+  }
+  
+  .news-items {
+    margin: 30px 90px;
+  }
+  
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+  }
+  .item {
+    width: 300px;
+    vertical-align: middle;
+    margin: 20px 10px;
+    padding: 0 px;
+    p a {
+      word-wrap: break-word;
+      line-height: 20px;
+      font-size: 13px;
+    }
+    time {
+      font-size: 13px;
+    }
+}

@@ -1,0 +1,22 @@
+<div class="main-content">
+
+    <div class = "news-items" >
+        <ul>
+            <div *ngIf = ''>
+
+            </div>
+                <li *ngFor = "let n of latestNews" >
+                    <div class="item">
+                    <img class = "news-pic" src="{{n.photo}}" alt="">
+                    <p>
+                        <a [routerLink] = "['/news', n.id]">
+                            {{n.title}}
+                        </a>        
+                    </p>
+                    <time> {{formatDate(n.date)}}</time>
+                </div>
+                </li>
+        </ul>
+    </div>
+
+</div>

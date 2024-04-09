@@ -1,0 +1,12 @@
+<div *ngIf="loaded; else loading">
+    <div id="detail">
+        <h3> {{news.title}}</h3> 
+        <img src="{{news.photo}}" alt="">
+        <p>{{news.description}}</p>
+    </div>
+</div>
+
+  
+<ng-template #loading>
+    <p>Новость загружается...</p>
+</ng-template>

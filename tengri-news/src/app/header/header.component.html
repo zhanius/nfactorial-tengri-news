@@ -1,0 +1,42 @@
+<header>
+  <nav class="tengri-rubrics">
+    <a href="">NEWS</a>
+    <a href="#">LIFE</a>
+    <a href="#">SPORT</a>
+    <a href="#">TRAVEL</a>
+    <a href="#">GUIDE</a>
+    <a href="#">EDU</a>
+    <div class = "dropdown" href="#">
+      CATEGORIES
+      <div class="dropdown-content">
+      <div *ngFor="let category of categories">
+        <a routerLink="/categories/{{category.id}}/news" (click)="setCategory(category.name)">
+          {{ category.name }}
+        </a>
+      </div>
+    </div>
+  </div>
+
+    </nav>
+  <nav class="tengri-additional-info">
+    <div class="weather"><span>&#9729; 11°C</span></div>
+
+    <div class="course-tenge">
+      <span
+        >&#36; 446.77 <img src="https://tengrinews.kz/tengri_new/img/course-up.svg" alt=""
+      /></span>
+      <span
+        >&#8364; 483 <img src="https://tengrinews.kz/tengri_new/img/course-up.svg" alt=""
+      /></span>
+      <span
+        >&#8381; 4.85 <img src="https://tengrinews.kz/tengri_new/img/course-down.svg" alt=""
+      /></span>
+    </div>
+
+    <a class="contacts" href="#">
+      Редакция <img src="https://www.freeiconspng.com/thumbs/logo-whatsapp-png/logo-whatsapp-png-image-2.png" alt="">+7 (777) 001 44 99
+    </a>
+
+    <a href="#">Реклама</a>
+  </nav>
+</header>

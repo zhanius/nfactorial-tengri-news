@@ -1,0 +1,59 @@
+.container {
+  background-color: rgb(255, 255, 255);
+  height: auto;
+  margin: 0 180px;
+  border: 0.5px solid rgba(240, 240, 240, 0.714);
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.right {
+  display: inline-flex;
+  align-items: center;
+  a {
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 0px 10px 0 10px;
+  }
+
+  .links{
+    margin: 0 20px;
+  }
+  .logos {
+    display: flex;
+    align-items: center;
+    .burger {
+      width: 24px;
+      height: 19px;
+    }
+
+    .tengri-logo {
+      width: 199px;
+      height: 38px;
+    }
+  }
+}
+.language{
+  margin-right: 12px;
+}
+
+.whatsapp{
+  display: grid;
+  justify-items: center;
+  background-color: #32a801;
+  width: auto;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+

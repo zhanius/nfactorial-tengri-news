@@ -1,0 +1,33 @@
+<div class="main-content">
+    <div class="main-news" *ngIf = "mainNew">
+        <img class = "main-news-pic" src="{{mainNew.photo}}" alt="">
+                    <p class = "main-news-p">
+                        <a class = "main-news-a" [routerLink] = "['/news', mainNew.id]">
+                            {{mainNew.title}}
+                        </a>        
+                    </p>
+                    <time class = "main-news-time"> {{formatDate(mainNew.date)}}</time>
+    </div>
+
+    <div class = "news-items">
+        <ul>
+                <li *ngFor = "let n of news">
+                    <div class="item">
+                    <img class = "news-pic" src="{{n.photo}}" alt="">
+                    <p>
+                        <a [routerLink] = "['/news', n.id]">
+                            {{n.title}}
+                        </a>        
+                    </p>
+                    <time> {{formatDate(n.date)}}</time>
+                </div>
+                </li>
+        </ul>
+    </div>
+    
+    <div class="pagination">
+        <a [routerLink]="['/news']" [queryParams]="{ page: 1 }" queryParamsHandling="merge" (click)="changePage(1)">1</a>
+        <a [routerLink]="['/news']" [queryParams]="{ page: 2 }" queryParamsHandling="merge" (click)="changePage(2)">2</a>
+        <a [routerLink]="['/news']" [queryParams]="{ page: 3 }" queryParamsHandling="merge" (click)="changePage(3)">3</a>
+      </div>
+</div>
