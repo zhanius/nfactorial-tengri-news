@@ -4,9 +4,9 @@ this is a Django project about a news website.
 # installation instructions
 follow these steps to install and run the project:
 
-Ensure you have the following installed on your system:
+ensure you have the following installed on your system:
 
-- python 3.11
+- python 3.11 
 - django 5.0.3
 - angular cli 17.3
 - virtualenv
@@ -36,7 +36,22 @@ Ensure you have the following installed on your system:
    ```bash
     npx ng serve
    ```
-    and follow the link 
+    and follow the link http://localhost:4200/ to open the project.
+
+   for backend:
+   - apply the migrations
+   ```bash
+   python manage.py makemigrations
+   python manage.py migrate
+   ```
+   - create a user to access the admin panel
+   ```bash
+   python manage.py createsuperuser
+   ```
+   - run the project
+   ```bash
+   python manage.py runserver
+   ```
   
 
 
