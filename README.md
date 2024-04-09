@@ -18,10 +18,10 @@ ensure you have the following installed on your system:
    ```
 
 2. navigate to the project directory:
-  for frontend:
-    ```bash
-    cd tengri-news
-    ```
+     for frontend:
+       ```bash
+       cd tengri-news
+       ```
      for backend:
        ```bash
        cd tengri-back
