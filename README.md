@@ -28,7 +28,7 @@ ensure you have the following installed on your system:
        ```
 
 3. run the application:
-   - for frontend:
+   - FOR FRONTEND:
     ```bash
     ng serve
     ```
@@ -38,7 +38,7 @@ ensure you have the following installed on your system:
    ```
     and follow the link http://localhost:4200/ to open the project.
 
-   - for backend:
+   - FOR BACKEND:
    - apply the migrations
    ```bash
    python manage.py makemigrations
