@@ -22,10 +22,10 @@ ensure you have the following installed on your system:
     ```bash
     cd tengri-news
     ```
-  for backend:
-    ```bash
-    cd tengri-back
-    ```
+     for backend:
+       ```bash
+       cd tengri-back
+       ```
 
 3. run the application:
    for frontend:
